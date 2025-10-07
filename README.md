@@ -2,6 +2,9 @@
 
 A project implementing a basic Extract, Transform, Load (ETL) pipeline. The pipeline uses a Python script to perform the data processing logic, a Bash wrapper for execution, and an SQL file to define and populate the target database schema.
 
+Every 5 min whatever the data is updated into the database that data is exceeds the restriction limit then push into the csv file.
+
+
 ## 🚀 Features
 
     🐍 ETL Logic: Uses a Python script (etl_script.py) to handle data extraction, transformation, and loading.
