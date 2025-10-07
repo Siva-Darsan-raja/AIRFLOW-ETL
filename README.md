@@ -25,14 +25,14 @@ A project implementing a basic Extract, Transform, Load (ETL) pipeline. The pipe
 ## 📦 Project Structure
 
 etl-data-processor/
+
 ├── wrapper_script.sh # Bash wrapper to execute the ETL script
+
 ├── etl_script.py     # Main Python script for E-T-L logic
+
 ├── etl_dag.py        # DAG file (likely for Airflow Scheduler)
+
 ├── database.txt      # SQL DDL/DML for database setup and initial data
+
 └── README.md         # Project documentation (this file)
-
-
-
-    Create Database and Table:
-    SQL
 
