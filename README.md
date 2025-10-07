@@ -1,8 +1,8 @@
-ETL Data Processing Project (Python + MySQL + Airflow)
+## ETL Data Processing Project (Python + MySQL + Airflow)
 
 A project implementing a basic Extract, Transform, Load (ETL) pipeline. The pipeline uses a Python script to perform the data processing logic, a Bash wrapper for execution, and an SQL file to define and populate the target database schema.
 
-🚀 Features
+## 🚀 Features
 
     🐍 ETL Logic: Uses a Python script (etl_script.py) to handle data extraction, transformation, and loading.
 
@@ -12,7 +12,7 @@ A project implementing a basic Extract, Transform, Load (ETL) pipeline. The pipe
 
     ⚙️ Orchestration Ready: Includes etl_dag.py, suggesting readiness for deployment in an orchestrator like Apache Airflow.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
     Core Logic: Python 3
 
@@ -22,7 +22,7 @@ A project implementing a basic Extract, Transform, Load (ETL) pipeline. The pipe
 
     Scheduler : Apache Airflow 
 
-📦 Project Structure
+## 📦 Project Structure
 
 etl-data-processor/
 ├── wrapper_script.sh # Bash wrapper to execute the ETL script
